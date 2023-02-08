@@ -333,6 +333,12 @@ header .fa-bars{
 }
 
 @media (max-width:450px){
+
+    header .logo img{
+        max-width: 80%;
+        float: right;
+        height:auto;
+    }
     
     html{
         font-size: 50%;
