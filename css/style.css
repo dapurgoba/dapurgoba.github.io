@@ -47,7 +47,7 @@ section{
 
 header{
     position: fixed;
-    top:1rem; left:0; right:0;
+    top:.2rem; left:0; right:0;
     background:transparent;
     padding:2rem 9%;
     display: flex;
