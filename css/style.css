@@ -48,7 +48,7 @@ section{
 header{
     position: fixed;
     top:.2rem; left:0; right:0;
-    background:transparent;
+    background:linear-gradient(rgba(245, 245, 245, 0.185),rgba(245, 245, 245, 0.13));
     padding:2rem 9%;
     display: flex;
     align-items: center;
@@ -307,7 +307,6 @@ header .fa-bars{
         position:absolute;
         top:100%; left:0; right:0;
         background:rgba(245, 245, 245, 0.24);
-        border-top: .1rem solid rgb(156, 25, 21);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
@@ -321,11 +320,6 @@ header .fa-bars{
         background:transparent;
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
-    }
-
-    .heading1{
-        padding:10px 24px 10px 24px;
-        margin:0 25rem 0 25rem;
     }
 
     
